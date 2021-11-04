@@ -100,7 +100,7 @@ new Morris.Line({
   pointStrokeColors: ['#efefef'],
   gridLineColor    : '#efefef',
   gridTextFamily   : 'Open Sans',
-  preUnits         : '$',
+  preUnits         : 'Bs.',
   gridTextSize     : 10
 });
 

@@ -96,7 +96,7 @@ GRÁFICO VENDEDORES
       xkey: 'y',
       ykeys: ['a'],
       labels: ['ventas'],
-      preUnits: '$',
+      preUnits: 'Bs.',
       hideHover: 'auto'
     });
 

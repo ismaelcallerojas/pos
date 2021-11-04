@@ -70,7 +70,7 @@ $bloque1 = <<<EOF
 					<br>
 					NIT: 71.759.963-9
 					<br>
-					Dirección: Calle 44B 92-11
+					Dirección: Calle General Pando
 				</div>
 
 			</td>
@@ -81,7 +81,7 @@ $bloque1 = <<<EOF
 					<br>
 					Teléfono: 300 786 52 49
 					<br>
-					ventas@inventorysystem.com
+					maralibofficesrl@maralib.com
 				</div>
 				
 			</td>
@@ -181,10 +181,10 @@ $bloque4 = <<<EOF
 		<td style="border: 1px solid #666; color:#333; background-color:white; width:80px; text-align:center">
 		$item[cantidad]
 		</td>
-		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">$ 
+		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">Bs. 
 		$precioUnidad
 		</td>
-		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">$ 
+		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">Bs. 
 		$precioTotal
 		</td>
 
@@ -226,7 +226,7 @@ $bloque5 = <<<EOF
 			Neto:
 		</td>
 		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">
-			$ $neto
+			Bs. $neto
 		</td>
 
 		</tr>
@@ -239,7 +239,7 @@ $bloque5 = <<<EOF
 			Impuesto:
 		</td>
 		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">
-			$ $impuesto
+			Bs. $impuesto
 		</td>
 
 		</tr>
@@ -252,7 +252,7 @@ $bloque5 = <<<EOF
 			Total:
 		</td>
 		<td style="border: 1px solid #666; color:#333; background-color:white; width:100px; text-align:center">
-			$ $total
+			Bs. $total
 		</td>
 
 		</tr>

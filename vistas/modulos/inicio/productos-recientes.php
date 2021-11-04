@@ -47,7 +47,7 @@ PRODUCTOS RECIENTES
 				        <div class="product-info">
 				          <a href="" class="product-title">'.$productos[$i]["descripcion"].'
 
-				         	<span class="label label-warning pull-right">$'.$productos[$i]["precio_venta"].'</span></a>
+				         	<span class="label label-warning pull-right">Bs. '.$productos[$i]["precio_venta"].'</span></a>
 			              
 				     </div>
 				      </li>';
