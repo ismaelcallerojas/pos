@@ -9,7 +9,7 @@ PÁGINA DE INICIO
   <section class="content-header">
     
     <h1>
-    Tablero
+    Bienvenido al Sistema
     <small>Panel de Control</small>
     </h1>
 
