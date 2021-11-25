@@ -67,8 +67,14 @@ ACTIVAR LOS BOTONES CON LOS ID CORRESPONDIENTES
 =============================================*/
 
 $('.tablaProductos tbody').on( 'click', 'button', function () {
+
+	if(window.matchMedia("(min-width:992px)").matches){
+		var data = table.row( $(this).parents('tr') ).data();	
+	}else{
+		var data = table.row( $(this).parents('tbody tr ul li') ).data();
+	}
 	
-	var data = table.row( $(this).parents('tr') ).data();
+	
 	
 	$(this).attr("idProducto", data[9])	
 	$(this).attr("codigo", data[2])	

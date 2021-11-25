@@ -33,8 +33,8 @@
       </div>
 
       <div class="box-body">
-        
-       <table class="table table-bordered table-striped dt-responsive tablaProductos">
+          
+       <table class="table table-bordered table-striped dt-responsive tablaProductos" width="100%">
          
         <thead>
          
@@ -54,8 +54,6 @@
          </tr> 
 
         </thead>
-
-       
 
        </table>
 
@@ -215,7 +213,7 @@ MODAL AGREGAR PRODUCTO
                       <label>
                         
                         <input type="checkbox" class="minimal porcentaje" checked>
-                        Utilizar procentaje
+                        Utilizar porcentaje
                       </label>
 
                     </div>
@@ -328,7 +326,23 @@ MODAL EDITAR PRODUCTO
 
                 <select class="form-control input-lg"  name="editarCategoria" readonly required>
                   
+                  <option id="editarCategoria">
+                    
                   <option id="editarCategoria"></option>
+
+                  <?php
+
+                  $item = null;
+                  $valor = null;
+
+                  $categorias = ControladorCategorias::ctrMostrarCategorias($item, $valor);
+
+                  foreach ($categorias as $key => $value) {
+                    
+                    echo '<option value="'.$value["id"].'">'.$value["categoria"].'</option>';
+                  }
+
+                  ?>
 
                 </select>
 
@@ -417,7 +431,7 @@ MODAL EDITAR PRODUCTO
                       <label>
                         
                         <input type="checkbox" class="minimal porcentaje" checked>
-                        Utilizar procentaje
+                        Utilizar porcentaje
                       </label>
 
                     </div>

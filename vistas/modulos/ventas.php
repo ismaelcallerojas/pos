@@ -45,7 +45,7 @@
 
       <div class="box-body">
         
-       <table class="table table-bordered table-striped dt-responsive tablas rangoFechas">
+       <table class="table table-bordered table-striped dt-responsive tablas rangoFechas" width="100%">
          
         <thead>
          

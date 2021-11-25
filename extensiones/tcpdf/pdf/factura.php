@@ -79,14 +79,14 @@ $bloque1 = <<<EOF
 
 				<div style="font-size:8.5px; text-align:right; line-height:15px;">
 					<br>
-					Teléfono: 300 786 52 49
+					Teléfono: 4431733
 					<br>
 					maralibofficesrl@maralib.com
 				</div>
 				
 			</td>
 
-			<td style="background-color:white; width:110px; text-align:center; color:red"><br><br>FACTURA N.<br>$valorVenta</td>
+			<td style="background-color:white; width:110px; text-align:center; color:red"><br><br>PRO-FORMA N.<br>$valorVenta</td>
 		</tr>
 	</table>
 	
